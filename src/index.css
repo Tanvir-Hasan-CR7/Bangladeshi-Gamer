@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pixelify Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Pixelify Sans", "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-vortex-primary: var(--primary-color, #9333ea);
+  --color-vortex-secondary: var(--secondary-color, #2563eb);
+  --color-vortex-dark: #0f172a;
+  --color-vortex-slate: #1e293b;
+}
+
+@layer base {
+  :root {
+    --primary-color: #9333ea;
+    --secondary-color: #2563eb;
+  }
+  body {
+    @apply bg-slate-950 text-slate-200 font-sans antialiased;
+  }
+}
+
+.glass {
+  @apply bg-slate-900/60 backdrop-blur-md border border-slate-800/50;
+}
+
+.glass-hover {
+  @apply hover:bg-slate-800/80 hover:border-slate-700/50 transition-all duration-300;
+}
+
+.neon-glow-purple {
+  box-shadow: 0 0 15px rgba(147, 51, 234, 0.3);
+}
+
+.neon-glow-blue {
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.3);
+}
+

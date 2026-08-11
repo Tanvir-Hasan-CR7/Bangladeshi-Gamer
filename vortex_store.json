@@ -1,0 +1,364 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Ranks",
+      "order": 1
+    },
+    {
+      "id": "cat-2",
+      "name": "Keys",
+      "order": 2
+    },
+    {
+      "id": "cat-3",
+      "name": "Coins",
+      "order": 3
+    }
+  ],
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "VIP Rank",
+      "price": 500,
+      "description": "Get a fancy VIP tag, special kits, and priority queue entrance!",
+      "category_id": "cat-1",
+      "stock": -1,
+      "image_url": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+    },
+    {
+      "id": "prod-2",
+      "name": "MVP Rank",
+      "price": 1000,
+      "description": "Get all VIP perks plus /fly commands, custom particles, and extra chest slots!",
+      "category_id": "cat-1",
+      "stock": -1,
+      "image_url": "https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
+    },
+    {
+      "id": "prod-3",
+      "name": "Vortex Rank",
+      "price": 2500,
+      "description": "The ULTIMATE rank. /fly, custom tag, monthly coins, exclusive discord access, and more!",
+      "category_id": "cat-1",
+      "stock": 15,
+      "image_url": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png"
+    },
+    {
+      "id": "prod-4",
+      "name": "Vortex Key",
+      "price": 100,
+      "description": "Open the custom Vortex Crate at spawn for extremely rare loot and weapons!",
+      "category_id": "cat-2",
+      "stock": -1,
+      "image_url": "https://cdn-icons-png.flaticon.com/512/2889/2889312.png"
+    },
+    {
+      "id": "prod-5",
+      "name": "Mega Coins Package",
+      "price": 300,
+      "description": "Get 50,000 server coins instantly credited to your in-game balance.",
+      "category_id": "cat-3",
+      "stock": -1,
+      "image_url": "https://cdn-icons-png.flaticon.com/512/272/272525.png"
+    }
+  ],
+  "settings": [
+    {
+      "id": "global",
+      "server_name": "Eternity Hub",
+      "server_ip": "play.eternityhub.fun",
+      "discord_link": "https://discord.gg/eternity",
+      "server_icon": "https://cdn-icons-png.flaticon.com/512/3135/3135755.png",
+      "primary_color": "#9333ea",
+      "secondary_color": "#22d3ee",
+      "brand_color_1": "#9333ea",
+      "brand_color_2": "#22d3ee",
+      "brand_name_split": 8,
+      "brand_name_first": "Eternity",
+      "brand_name_second": "Hub",
+      "hero_bg_url": "",
+      "patron_image_url": "",
+      "rules_bg_url": "",
+      "rules_border_color": "#9333ea",
+      "discord_order_webhook": "",
+      "mysql_host": "lemon.nyctohost.com",
+      "mysql_port": "3306",
+      "mysql_database": "s168_Two",
+      "mysql_user": "u168_50U0Rj2EOa",
+      "mysql_password": "m@gOsxCyU2.=DaCka@THfhcf"
+    }
+  ],
+  "rules": [
+    {
+      "id": "rule-1",
+      "title": "Fair Play",
+      "description": "No hacking, cheating, or exploiting client modifications that give unfair advantages.",
+      "order": 1
+    },
+    {
+      "id": "rule-2",
+      "title": "Respect Others",
+      "description": "Keep chat clean and friendly. No toxic behavior, harassment, racism, or offensive slurs.",
+      "order": 2
+    },
+    {
+      "id": "rule-3",
+      "title": "No Griefing / Stealing",
+      "description": "Do not steal or destroy other players buildings, items, or claimed territories.",
+      "order": 3
+    },
+    {
+      "id": "rule-4",
+      "title": "Lag Security",
+      "description": "Do not build massive lag machines, infinite redstone loops, or mob farms designed to lag the tickrate.",
+      "order": 4
+    }
+  ],
+  "news": [
+    {
+      "id": "news-1",
+      "title": "Season 4 Launch!",
+      "content": "Welcome to Season 4 of Eternity Hub! We have reset the map with a beautiful new seed, custom structures, a revamped store, and massive gameplay updates! Log on now to claim your free welcome kit.",
+      "author": "Owner",
+      "created_at": "2026-08-05T07:48:50.675Z"
+    },
+    {
+      "id": "news-2",
+      "title": "Staff Application Open",
+      "content": "We are looking for motivated helpers to join our team! Head over to discord to submit an application if you have experience with moderation.",
+      "author": "Moderator Manager",
+      "created_at": "2026-08-05T07:48:50.676Z"
+    }
+  ],
+  "vote_links": [
+    {
+      "id": "v-1",
+      "name": "Planet Minecraft (Vote 1)",
+      "url": "https://www.planetminecraft.com"
+    },
+    {
+      "id": "v-2",
+      "name": "MinecraftServers.org (Vote 2)",
+      "url": "https://minecraftservers.org"
+    }
+  ],
+  "ranks": [
+    {
+      "id": "r-1",
+      "name": "Owner",
+      "order": 1
+    },
+    {
+      "id": "r-2",
+      "name": "Admin",
+      "order": 2
+    },
+    {
+      "id": "r-3",
+      "name": "Developer",
+      "order": 3
+    },
+    {
+      "id": "r-4",
+      "name": "Moderator",
+      "order": 4
+    },
+    {
+      "id": "r-5",
+      "name": "Helper",
+      "order": 5
+    }
+  ],
+  "staff": [
+    {
+      "id": "s-1",
+      "ign": "knightsoul14323",
+      "rank_id": "r-1"
+    },
+    {
+      "id": "s-2",
+      "ign": "VortexManager",
+      "rank_id": "r-2"
+    },
+    {
+      "id": "s-3",
+      "ign": "CodeNinja",
+      "rank_id": "r-3"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "p-1",
+      "username": "knightsoul14323",
+      "rank_name": "Vortex Rank",
+      "amount_paid": 2500,
+      "purchase_date": "2026-08-03T07:48:50.676Z",
+      "sender_number": "01711112222",
+      "trx_id": "TRX_VORTEX1",
+      "status": "approved"
+    },
+    {
+      "id": "p-2",
+      "username": "steve",
+      "rank_name": "VIP Rank",
+      "amount_paid": 500,
+      "purchase_date": "2026-07-31T07:48:50.676Z",
+      "sender_number": "01833334444",
+      "trx_id": "TRX_STEVE2",
+      "status": "approved"
+    },
+    {
+      "id": "p-3",
+      "username": "alex",
+      "rank_name": "MVP Rank",
+      "amount_paid": 1000,
+      "purchase_date": "2026-07-26T07:48:50.676Z",
+      "sender_number": "01955556666",
+      "trx_id": "TRX_ALEX3",
+      "status": "approved"
+    },
+    {
+      "id": "p-4",
+      "username": "dream",
+      "rank_name": "Vortex Rank",
+      "amount_paid": 2500,
+      "purchase_date": "2026-08-04T07:48:50.676Z",
+      "sender_number": "01577778888",
+      "trx_id": "TRX_DREAM4",
+      "status": "approved"
+    },
+    {
+      "id": "p-5",
+      "username": "notorious",
+      "rank_name": "MVP Rank",
+      "amount_paid": 1000,
+      "purchase_date": "2026-07-21T07:48:50.676Z",
+      "sender_number": "01699990000",
+      "trx_id": "TRX_NOTORIOUS5",
+      "status": "approved"
+    },
+    {
+      "id": "p-pending-1",
+      "username": "herobrine",
+      "rank_name": "Vortex Rank",
+      "amount_paid": 2500,
+      "purchase_date": "2026-08-05T07:38:50.676Z",
+      "sender_number": "01799998888",
+      "trx_id": "TRX_PENDING123",
+      "status": "pending"
+    },
+    {
+      "id": "p-pending-2",
+      "username": "dinnerbone",
+      "rank_name": "VIP Rank",
+      "amount_paid": 500,
+      "purchase_date": "2026-08-05T07:03:50.676Z",
+      "sender_number": "01888887777",
+      "trx_id": "TRX_PENDING567",
+      "status": "pending"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o-1",
+      "user_id": "guest",
+      "ign": "knightsoul14323",
+      "payment_method": "bkash",
+      "sender_number": "01712345678",
+      "transaction_id": "TRX_VORTEX1",
+      "status": "verified",
+      "total_amount": 2500,
+      "items": [
+        {
+          "productId": "prod-3",
+          "name": "Vortex Rank",
+          "price": 2500,
+          "quantity": 1
+        }
+      ],
+      "created_at": "2026-08-03T07:48:50.677Z"
+    },
+    {
+      "id": "o-2",
+      "user_id": "guest",
+      "ign": "steve",
+      "payment_method": "nagad",
+      "sender_number": "01812345678",
+      "transaction_id": "TRX_STEVE2",
+      "status": "verified",
+      "total_amount": 500,
+      "items": [
+        {
+          "productId": "prod-1",
+          "name": "VIP Rank",
+          "price": 500,
+          "quantity": 1
+        }
+      ],
+      "created_at": "2026-07-31T07:48:50.677Z"
+    },
+    {
+      "id": "o-3",
+      "user_id": "guest",
+      "ign": "alex",
+      "payment_method": "rocket",
+      "sender_number": "01912345678",
+      "transaction_id": "TRX_ALEX3",
+      "status": "verified",
+      "total_amount": 1000,
+      "items": [
+        {
+          "productId": "prod-2",
+          "name": "MVP Rank",
+          "price": 1000,
+          "quantity": 1
+        }
+      ],
+      "created_at": "2026-07-26T07:48:50.677Z"
+    },
+    {
+      "id": "o-4",
+      "user_id": "guest",
+      "ign": "dream",
+      "payment_method": "bkash",
+      "sender_number": "01512345678",
+      "transaction_id": "TRX_DREAM4",
+      "status": "pending",
+      "total_amount": 2500,
+      "items": [
+        {
+          "productId": "prod-3",
+          "name": "Vortex Rank",
+          "price": 2500,
+          "quantity": 1
+        }
+      ],
+      "created_at": "2026-08-04T07:48:50.677Z"
+    }
+  ],
+  "local_users": [
+    {
+      "id": "usr_admin_1",
+      "email": "knightsoul14323@gmail.com",
+      "password": "hagababa@",
+      "display_name": "KnightSoul"
+    }
+  ],
+  "local_profiles": [
+    {
+      "id": "usr_admin_1",
+      "email": "knightsoul14323@gmail.com",
+      "display_name": "KnightSoul",
+      "role": "admin",
+      "created_at": "2026-08-05T07:48:50.677Z"
+    }
+  ],
+  "admin_emails": [
+    {
+      "id": "ae_1",
+      "email": "knightsoul14323@gmail.com",
+      "created_at": "2026-08-05T07:48:50.677Z"
+    }
+  ]
+}
